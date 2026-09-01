@@ -1,4 +1,6 @@
 package org.spring.restoliapi.model;
 
-public record Album() {
+import java.time.LocalDate;
+
+public record Album(String id, String title, String artistId, LocalDate releaseDate) {
 }
